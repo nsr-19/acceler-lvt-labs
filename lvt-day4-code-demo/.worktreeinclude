@@ -1,0 +1,5 @@
+# Files matching these patterns that are ALSO gitignored get copied into every
+# new worktree Claude creates (worktrees are fresh checkouts, so untracked
+# config like .env would otherwise be missing).
+.env
+.env.local
